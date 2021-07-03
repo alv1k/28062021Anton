@@ -1,0 +1,52 @@
+<div class='question1' style="background-color: green; height: 600px; width: 800px;	margin-left: 500px;">
+	<img src="loki.jpg" style="width:800px; margin-right: 500px;">
+<h1>Полное имя Локи?</h1></div>
+<div class='answer1' style="width: 800px; height: 100px; background-color: red; font-size: 40px; margin-left: 500px;">
+	1. Локи Одинсон
+	</div>
+<div class='answer2' style="width: 800px; height: 100px; background-color: blue; font-size: 40px; margin-left: 1px; margin-top: 50;">
+	2. Локи Эриксон
+	</div>
+<div class='answer2' style="width: 800px; height: 100px; background-color: pink; font-size: 40px; margin-left: 0,9px; margin-top: 50;">
+	3. Локи Лафейсон
+	</div>
+</div>
+
+<div class='question2' style="background-color: brown;height: 800px; width: 800px; margin-left: 500px;display: none;">
+	<img src="blob.jpeg" style="width:800px; margin-right: 500px">
+<h1>Сколько полнометражных фильмов у Marvel?</h1></div>
+<div class='answer1' style="width: 800px; height: 100px; background-color: darkgreen; font-size: 40px;">
+	1. 15
+	</div>
+<div class='answer2' style="width: 800px; height: 100px; background-color: grey; font-size: 40px;">
+	2. 18
+	</div>
+<div class='answer3' style="width: 800px; height: 100px; background-color: black; font-size: 40px;">
+	3. 21
+	</div>
+</div>
+
+<div class='question3' style="background-color: lightskyblue;height: 800px; width: 800px; margin-left: 500px;display: none;">
+	<img src="shit.jpg" style="width:800px; margin-right: 500px">
+<h1>Из чего сделан щит Капитана Америки?</h1></div>
+<div class='answer1' style="width: 800px; height: 100px; background-color: mistyrose; font-size: 40px;">
+	1. Адамантиум
+	</div>
+<div class='answer2' style="width: 800px; height: 100px; background-color: gold; font-size: 40px;">
+	2. Вибраниум
+	</div>
+<div class='answer3' style="width: 800px; height: 100px; background-color: darkgreen; font-size: 40px;">
+	3. Прометий
+	</div>
+</div>
+<script type="text/javascript">
+find('question1 answer1').click('alert', 'неправильно!')
+find('question1 answer2').click('alert', 'неправильно!')
+find('question1 answer3').click('show', 'question2')
+find('question2 answer1').click('alert', 'неправильно!')
+find('question2 answer2').click('alert', 'неправильно!')
+find('question2 answer3').click('show', 'question3')
+find('question3 answer1').click('alert', 'неправильно!')
+find('question3 answer2').click('alert', 'правильно!')
+find('question3 answer3').click('alert', 'неправильно!')
+</script>
